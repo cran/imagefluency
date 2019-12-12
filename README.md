@@ -1,10 +1,11 @@
 ## imagefluency: Image Statistics Based on Processing Fluency
 
+
 ## Overview
 
 **imagefluency** is an simple R package for image fluency scores. The
 package allows to get scores for several basic aesthetic principles that
-facilitate fluent cognitive processing of images. 
+facilitate fluent cognitive processing of images.
     
 The main functions are:
 
@@ -66,7 +67,9 @@ rails <- img_read(system.file("example_images", "rails.jpg", package = "imageflu
 img_symmetry(rails, horizontal = FALSE)
 ```
 
-See the package [vignette](https://stm.github.io/imagefluency/articles/imagefluency.html) for more details (or type `vignette("imagefluency", package = "imagefluency")` into the R console).
+## Documentation
+
+See the package [vignette](https://stm.github.io/imagefluency/articles/imagefluency.html) for a detailled introduction (or type `vignette("imagefluency", package = "imagefluency")` into the R console) and the [reference page](https://stm.github.io/imagefluency/reference/index.html) for details on each function.
 
 ## Citation
 
