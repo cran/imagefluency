@@ -1,6 +1,6 @@
-28e7b3ce63d8ac76d3d330429f5ae768 *DESCRIPTION
+54d7bc35a00bfe4979739cb5fbbd564e *DESCRIPTION
 bbc9cac222581b34ec0c37ce67cca798 *NAMESPACE
-269ae6fe1dc444fa6231f27485773ab6 *NEWS.md
+bd71c87766f0b7ea5fb47c0210ef66e0 *NEWS.md
 a5c99483aac277f1376514c0ee82f248 *R/complexity.R
 a2053378961c3d04fb480b08c183b6cd *R/contrast.R
 196ce66e36dfe30809fdb92dc47a316e *R/imagefluency-package.R
@@ -14,7 +14,7 @@ a2053378961c3d04fb480b08c183b6cd *R/contrast.R
 98ab226c49d826e6597bc7f7977b36ff *build/vignette.rds
 58264d754e4e8f15b3b13bca5dfe21cd *inst/doc/imagefluency.R
 2dae6d15bbe1c6a9542eabb3b29720a3 *inst/doc/imagefluency.Rmd
-a8a82e0f746223d89cfb3cc968a79dfa *inst/doc/imagefluency.html
+b5cac0ac9dd909784b16639260edbd03 *inst/doc/imagefluency.html
 fb4a7ec9b99188e05044ba4f9d285c8d *inst/example_images/berries.jpg
 ce80c8aa2af12007914d6b341f5e18e6 *inst/example_images/bike.jpg
 4bcabb3886d0b06559c01a92f7d925ae *inst/example_images/bridge.jpg
@@ -50,7 +50,7 @@ e89fd3a7be82ae9d986ecd00f62e901f *man/img_typicality.Rd
 7ce2879835f4f68c7f98d9060eb2edfc *man/run_imagefluency.Rd
 eecbde6d367ea861ce22a5f37b4f3431 *tests/testthat.R
 001d1c1dca25393d5f5f23f7cca3e298 *tests/testthat/Rplots.pdf
-02512006244baff4bdbc5a38286edd5c *tests/testthat/test_complexity.R
+d32a5c1620e90d7519ab60dc3d468a91 *tests/testthat/test_complexity.R
 9f5368df713f5138f669417b98d36ebd *tests/testthat/test_contrast.R
 bf2aaf1bf1ed06feffdf5a854b4ddf74 *tests/testthat/test_self_similarity.R
 0921e70c9f3cbb57ec0a8beb99b7b6f0 *tests/testthat/test_symmetry.R
