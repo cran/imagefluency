@@ -16,7 +16,7 @@ test_that("img_complexity warns if rotate is not a logical value", {
 
 test_that("img_complexity checks whether algorithm is known", {
   expect_error(img_complexity(array(0, dim = c(10, 10, 3)), algorithm = "foo"),
-                 "Unknown image compression algorithm requested\\. Use one of the following: zip, jpg, gif, png")
+               "Unknown image compression algorithm requested\\. Use one of the following: zip, jpg, gif, png")
 
   expect_error(img_complexity(array(0, dim = c(10, 10, 3)), algorithm = "zip", rotate = TRUE), NA)
   expect_error(img_complexity(array(0, dim = c(10, 10, 3)), algorithm = "jpg", rotate = TRUE), NA)

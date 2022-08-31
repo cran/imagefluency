@@ -6,14 +6,9 @@
 \alias{imagefluency-package}
 \title{imagefluency: Image Statistics Based on Processing Fluency}
 \description{
-\if{html}{\figure{logo.png}{options: align='right'}}
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Get image statistics based on processing fluency theory. The
-    functions provide scores for several basic aesthetic principles that
-    facilitate fluent cognitive processing of images: contrast,
-    complexity / simplicity, self-similarity, symmetry, and typicality.
-    See Mayer & Landwehr (2018) <doi:10.1037/aca0000187> and Mayer & Landwehr
-    (2018) <doi:10.31219/osf.io/gtbhw> for the theoretical background of the methods.
+Get image statistics based on processing fluency theory. The functions provide scores for several basic aesthetic principles that facilitate fluent cognitive processing of images: contrast, complexity / simplicity, self-similarity, symmetry, and typicality. See Mayer & Landwehr (2018) \doi{10.1037/aca0000187} and Mayer & Landwehr (2018) \doi{10.31219/osf.io/gtbhw} for the theoretical background of the methods.
 }
 \details{
 \emph{The main functions are:}
@@ -46,22 +41,24 @@ Mayer, S. & Landwehr, J, R. (2018). Quantifying Visual Aesthetics
   Based on Processing Fluency Theory: Four Algorithmic Measures for
   Antecedents of Aesthetic Preferences. \emph{Psychology of Aesthetics,
   Creativity, and the Arts}, \emph{12}(4), 399--431.
-  doi:\href{https://doi.org/10.1037/aca0000187}{10.1037/aca0000187}
+  \doi{10.1037/aca0000187}
 
 Mayer, S. & Landwehr, J. R. (2018). Objective measures of design
   typicality. \emph{Design Studies}, \emph{54}, 146--161.
-  doi:\href{https://doi.org/10.31219/osf.io/gtbhw}{10.31219/osf.io/gtbhw}
+  \doi{10.31219/osf.io/gtbhw}
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://stm.github.io/imagefluency}
-  \item Report bugs at \url{https://github.com/stm/imagefluency/issues}
+  \item \url{https://stm.github.io/imagefluency/}
+  \item \url{https://github.com/stm/imagefluency/}
+  \item \doi{10.5281/zenodo.5614666}
+  \item Report bugs at \url{https://github.com/stm/imagefluency/issues/}
 }
 
 }
 \author{
-\strong{Maintainer}: Stefan Mayer \email{stefan@mayer-de.com} (0000-0003-0034-7090)
+\strong{Maintainer}: Stefan Mayer \email{stefan@mayer-de.com} (\href{https://orcid.org/0000-0003-0034-7090}{ORCID})
 
 }
 \keyword{internal}

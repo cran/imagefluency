@@ -1,9 +1,6 @@
 #' @include utils.R
 NULL
 
-# 2do: different typicality algorithms (img, method = "correlation | feature_points | phash", ...)
-# feature points via shiny app point marker
-
 #' Typicality of images relative to each other
 #'
 #' \code{img_typicality} returns the visual typicality of a list of images
@@ -63,7 +60,7 @@ NULL
 #'
 #' @references Mayer, S. & Landwehr, J. R. (2018). Objective measures of design
 #'   typicality. \emph{Design Studies}, \emph{54}, 146--161.
-#'   doi:\href{https://doi.org/10.1016/j.destud.2017.09.004}{10.1016/j.destud.2017.09.004}
+#'   \doi{10.1016/j.destud.2017.09.004}
 #'
 #'
 #'
@@ -106,6 +103,7 @@ img_typicality <- function(imglist, rescale = NULL){
       }
       if (dim( imglist[[elmnt]] )[3] == 4) {
         warning(paste("List element",elmnt,"is an array with 4 dimensions, presumably with alpha channel. 4th dimension is ignored ..."), call. = FALSE)
+        imglist[[elmnt]] <- imglist[[elmnt]][,,-4]
       }
       imgtype <- "rgb"
     }
@@ -178,7 +176,7 @@ img_typicality <- function(imglist, rescale = NULL){
   imglist <- matrix(unlist(imglist), ncol = length(imglist), byrow = FALSE)
   img_mean <- rowMeans(imglist)
   output <- stats::cor(imglist, img_mean)
-  rownames(output) <- paste0("img", 1:nrow(output))
+  rownames(output) <- paste0("img", seq_len(nrow(output)))
   return(typicality = output)
 }
 

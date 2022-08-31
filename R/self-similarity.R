@@ -45,7 +45,7 @@ NULL
 #'
 #' @param img An image in form of a matrix or array of numeric values,
 #'   preferably by square size. If the input is not square, bilinear resizing to
-#'   a square size is performade using the
+#'   a square size is performed using the
 #'   \code{\link[OpenImageR:resizeImage]{OpenImageR}} package. Use e.g.
 #'   \code{\link{img_read}()} to read an image file into \code{R}.
 #' @param full logical. Should the full frequency range be used for
@@ -65,18 +65,17 @@ NULL
 #'   Based on Processing Fluency Theory: Four Algorithmic Measures for
 #'   Antecedents of Aesthetic Preferences. \emph{Psychology of Aesthetics,
 #'   Creativity, and the Arts}, \emph{12}(4), 399--431.
-#'   doi:\href{https://doi.org/10.1037/aca0000187}{10.1037/aca0000187}
+#'   \doi{10.1037/aca0000187}
 #'
 #' @references Redies, C., Hasenstein, J., & Denzler, J. (2007). Fractal-like
 #'   image statistics in visual art: Similarity to natural scenes. \emph{Spatial
 #'   Vision}, \emph{21}, 137--148.
-#'   doi:10.1163/156856807782753921
-#'
+#'   \doi{10.1163/156856807782753921}
 #'
 #' @references Simoncelli, E. P., & Olshausen, B. A. (2001). Natural image
 #'   statistics and neural representation. \emph{Annual Review of Neuroscience},
 #'   \emph{24}, 1193--1216.
-#'   doi:\href{http://dx.doi.org/10.1146/annurev.neuro.24.1.1193}{10.1146/annurev.neuro.24.1.1193}
+#'   \doi{10.1146/annurev.neuro.24.1.1193}
 #'
 #'
 #' @examples

@@ -29,7 +29,7 @@ image. Higher values indicate higher image symmetry.
 }
 \details{
 The function returns the vertical and horizontal mirror symmetry of
-  an image \code{img}. Symmetry values can range between 0 (not symmmetrical)
+  an image \code{img}. Symmetry values can range between 0 (not symmetrical)
   and 1 (fully symmetrical). If \code{vertical} or \code{horizontal} is set
   to \code{FALSE} then vertical or horizontal symmetry is not computed,
   respectively.
@@ -53,7 +53,7 @@ The function returns the vertical and horizontal mirror symmetry of
   maximal score is computed as the image's overall symmetry. Advanced users
   can reverse this order by setting \code{per_channel = FALSE}. This results
   in first computing the weighted averages for each position of the mirror
-  axis seperately, and afterwards finding the maximal overall symmetry score.
+  axis separately, and afterwards finding the maximal overall symmetry score.
 }
 \examples{
 # Example image with high vertical symmetry: rails
@@ -80,7 +80,7 @@ Mayer, S. & Landwehr, J, R. (2018). Quantifying Visual Aesthetics
   Based on Processing Fluency Theory: Four Algorithmic Measures for
   Antecedents of Aesthetic Preferences. \emph{Psychology of Aesthetics,
   Creativity, and the Arts}, \emph{12}(4), 399--431.
-  doi:\href{https://doi.org/10.1037/aca0000187}{10.1037/aca0000187}
+  \doi{10.1037/aca0000187}
 }
 \seealso{
 \code{\link{img_read}}, \code{\link{img_complexity}},
