@@ -36,13 +36,14 @@ Image simplicity is calculated as 1 minus the ratio between the
   \code{\link{img_complexity}}.
 }
 \examples{
+\dontshow{if (.Platform$OS.type != "windows") (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
 # Example image with low simplicity: trees
 trees <- img_read(system.file("example_images", "trees.jpg", package = "imagefluency"))
 #
 # display image
 grid::grid.raster(trees)
 #
-# get complexity
+# get simplicity
 img_simplicity(trees)
 
 # Example image with high simplicity: sky
@@ -51,9 +52,9 @@ sky <- img_read(system.file("example_images", "sky.jpg", package = "imagefluency
 # display image
 grid::grid.raster(sky)
 #
-# get complexity
+# get simplicity
 img_simplicity(sky)
-
+\dontshow{\}) # examplesIf}
 }
 \references{
 Donderi, D. C. (2006). Visual complexity: A Review.
